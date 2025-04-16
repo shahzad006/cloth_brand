@@ -1,0 +1,666 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ################## section-a heading start ################## */
+
+nav{
+   width: 100%;
+   
+   
+}
+
+.sale{
+    font-size: 10px;
+    text-align: center;
+    color: red;
+    
+
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(14, 15, 15);
+    gap: 25px;
+    align-items: center;
+    
+    
+    
+    
+}
+
+.navbar i{
+    color: aliceblue;
+}
+
+.navbar .heading{
+    margin: 0px 360px 0px ;
+    color: rgb(120, 166, 11);
+    font-size: 25px;
+    
+}
+
+.navbar .heading span{
+    color: rgb(61, 212, 226);
+}
+
+.navbar input{
+    border: 2px solid rgb(251, 247, 247);
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+
+/* $$$$$$$$$$$$$$$$$$$ section-a heading end $$$$$$$$$$$$$$$$$$$ */
+
+/* ################## section-b Nav Menu start ################## */
+
+
+
+.section-b{
+    width: 100%;
+    background-color: rgb(248, 237, 225);
+    height: auto;
+    font-size: 20px;
+    
+    
+    
+}
+
+
+
+
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.nav-menu ul{
+    display: flex;
+    gap: 70px;
+    
+    
+}
+
+.nav-menu i> a{
+    color: rgb(93, 93, 94);
+}
+
+
+.nav-menu i> a:hover{
+    color: rgba(12, 8, 8, 0.753);
+    border-bottom: 1px solid rgba(11, 10, 10, 0.799);
+}
+.nav-menu ul li{
+    list-style: none;
+
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: rgb(104, 95, 95);
+    transition: all ease 0.6s;
+}
+
+.nav-menu ul li a:hover{
+    color:rgba(20, 10, 10, 0.778) ;
+    border-bottom: 1px solid rgba(13, 10, 10, 0.768);
+
+}
+
+
+
+
+.nav-menu i{
+    position: absolute;
+    margin-right: 1110px;
+    
+}
+
+.nav-menu i a{
+    
+    text-decoration: none;
+}
+
+/* $$$$$$$$$$$$$$$$$$$ section-b Nav Menu end $$$$$$$$$$$$$$$$$$$ */
+
+
+/* ######################### section-c Slider start  ######################### */
+
+.section-c{
+    width: 95%;
+    height: 500px;
+    margin:15px auto;
+    background-image: url("/header/header-1.webp");
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+    border: 5px solid rgb(221, 216, 216);
+    animation-name: slider;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    transition: all ease 0.6s;
+}
+
+@keyframes slider{
+
+    10%{background-image: url("/header/header-2.webp");}
+    50%{background-image: url("/header/header-4.webp");}
+    100%{background-image: url("/header/header-1.webp");}
+    
+    
+}
+
+
+/* $$$$$$$$$$$$$$$$$$$ section-c Slider end $$$$$$$$$$$$$$$$$$$ */
+
+
+
+
+.hrline-a{
+    width: 85%;
+    margin: 20px auto;
+    box-shadow: 2px 4px 6px black;
+}
+
+
+
+
+
+/* ####### section-d Circle Card start  ############ */
+
+
+.section-d{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(239, 248, 248);
+}
+
+
+.section-d h1{
+    text-align: center;
+    margin: 30px;
+
+}
+
+.card-circle{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    
+    
+}
+
+.card img{
+    width: 60%;
+    border: 2px solid rgb(252, 246, 246);
+    border-radius: 50%;
+    
+    
+}
+
+
+
+.card-contant{
+    margin-left: 38px;
+}
+
+
+
+/* $$$$$$$$$$$$$$$$$$$ section-d Circle Card end $$$$$$$$$$$$$$$$$$$ */
+
+/* ####### section-e button start  ############ */
+
+.big-button{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(242, 244, 244);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    
+    
+}
+
+.button-row{
+    display: inline-block;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    
+    
+}
+
+.button-row ul li{
+    display: inline-block;
+    margin: 80px;
+    border: 2px solid rgb(205, 52, 52);
+    padding: 15px 10px;
+    border-radius: 15px;
+    
+}
+
+.button-row ul li:hover{
+    transition: all ease 2.10s;
+    background-color: rgba(81, 75, 75, 0.402);
+    
+}
+
+.button-row ul li a:hover{
+    color: rgba(11, 11, 20, 0.885);
+
+}
+
+
+
+.b{
+    text-decoration: none;
+    font-size: 18px;
+    
+    
+    
+}
+
+/* $$$$$$$$$$$$$$$$$$$ section-e button end $$$$$$$$$$$$$$$$$$$ */
+
+
+
+
+h1{
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.card-trangle-a{
+    width: 325px;
+    background-color: aqua;
+    border-radius: 90px 10px 10px 10px;
+    box-shadow: 0px 2px 4px rgb(94, 93, 93);
+    overflow: hidden;
+}
+
+
+.card-trangle-b{
+    width: 325px;
+    background-color: aqua;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 2px 4px rgb(94, 93, 93);
+    overflow: hidden;
+
+}
+
+.card-trangle-c{
+
+    width: 325px;
+    background-color: rgb(72, 70, 69);
+    border-radius: 10px 90px 10px 10px;
+    box-shadow: 0px 2px 4px rgb(94, 93, 93);
+    overflow: hidden;
+
+}
+
+
+.style-All{
+    transition: all ease 0.6s;
+    margin-top: 20px;
+    background-color: rgb(214, 199, 211);
+}
+
+.style-All:hover{
+    transform: translateY(-20px);
+}
+
+.all-img{
+    width: 100%;
+    height: auto;
+
+}
+
+.card-p{
+    padding: 20px;
+}
+
+.card-p p{
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.card-p a{
+    text-decoration: none;
+    color: rgb(92, 88, 88);
+    
+    
+    
+}
+
+
+.card-buttens{
+
+    margin-top: 10px;
+    padding: 2px 20px;
+    transition: all ease 0.6s;
+}
+
+
+.card-buttens:hover{
+    border: 2px solid black;
+    color: black;
+
+}
+
+
+
+
+
+
+
+.section-all{
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 100px;
+}
+
+
+
+
+.read-btn{
+    
+    letter-spacing: 2px;
+    font-weight: 900; 
+    cursor: pointer;
+    
+}
+
+.read-btn a{
+    display: inline-block;
+    background-color: #fff;
+    padding: 0.3em;
+    border: rgb(22, 21, 21) solid;
+    border-radius: 0.5em;
+    color: rgb(20, 8, 8);
+    text-decoration: none;
+    margin-left: 45%;
+}
+
+.read-btn a:hover{
+    background-color: rgba(31, 28, 28, 0.898);
+    color: white;
+    
+}
+
+
+
+/* @@@@@@@@@@@@@@@@@@ */
+
+
+.card-trangle-a{
+    width: 325px;
+    background-color: aqua;
+    border-radius: 90px 10px 10px 10px;
+    box-shadow: 0px 2px 4px rgb(94, 93, 93);
+    overflow: hidden;
+}
+
+
+.card-trangle-b{
+    width: 325px;
+    background-color: aqua;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 2px 4px rgb(94, 93, 93);
+    overflow: hidden;
+
+}
+
+.card-trangle-c{
+
+    width: 325px;
+    background-color: rgb(72, 70, 69);
+    border-radius: 10px 90px 10px 10px;
+    box-shadow: 0px 2px 4px rgb(94, 93, 93);
+    overflow: hidden;
+
+}
+
+
+.style-All{
+    transition: all ease 2.5s;
+    margin-top: 20px;
+    background-color: rgb(214, 199, 211);
+}
+
+.style-All:hover{
+    transform: translateY(-20px);
+}
+
+.all-img{
+    width: 100%;
+    height: auto;
+
+}
+
+.card-p{
+    padding: 20px;
+}
+
+.card-p p{
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.card-p a{
+    text-decoration: none;
+    color: rgb(92, 88, 88);
+    
+    
+    
+}
+
+
+.card-buttens{
+
+    margin-top: 10px;
+    padding: 2px 20px;
+    transition: all ease 0.7s;
+}
+
+
+.card-buttens:hover{
+    border: 2px solid rgb(239, 27, 27);
+    color: rgb(24, 22, 23);
+
+}
+
+
+
+
+
+
+
+.section-all{
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 100px;
+}
+
+
+
+
+.read-btn{
+    
+    letter-spacing: 2px;
+    font-weight: 900; 
+    cursor: pointer;
+    
+}
+
+.read-btn a{
+    display: inline-block;
+    background-color: #fff;
+    padding: 0.3em;
+    border: rgb(22, 21, 21) solid;
+    border-radius: 0.5em;
+    color: rgb(20, 8, 8);
+    text-decoration: none;
+    margin-left: 45%;
+}
+
+.read-btn a:hover{
+    transition: all ease 1.5s;
+    background-color: rgba(73, 70, 70, 0.497);
+    color: rgb(26, 25, 25);
+    
+}
+
+
+/* ################## Video ################ */
+
+
+.video video{
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+
+/* ################## Video ################ */
+
+
+
+/* ###################### footor :start #################### */
+
+
+footer{
+    width: 100%;
+    height: 390px;
+    margin-top: 30px;
+    background-color: rgb(234, 240, 236);
+}
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+
+.footer-row .heading{
+    color: rgb(70, 68, 68);
+    
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+.about ul li{
+    margin-left: 25px;
+    list-style: none;
+    line-height: 28px;
+    letter-spacing: 2px;
+
+}
+
+.about ul li a{
+    text-decoration: none;
+    color:rgb(94, 93, 93);
+    
+}
+
+.about ul li a:hover{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+
+.footar-container{
+    width: 100%;
+    padding: 50px ;
+    padding-left: 550px;
+    
+}
+
+
+.icons a{
+    text-decoration: none;
+    padding: 10px;
+    
+    margin: 10px;
+    border-radius:10px ;
+}
+
+.icons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.footar-botton{
+    margin-top: 20px;
+    padding-left: 60px;
+}
+
+
+
+
+/* ###################### footor  end #################### */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
